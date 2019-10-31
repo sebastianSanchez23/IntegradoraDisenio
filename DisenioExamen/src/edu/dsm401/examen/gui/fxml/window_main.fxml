@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1115.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="880.0" prefWidth="208.0" style="-fx-background-color: RGB(246,138,31); -fx-pref-width: 350;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="TOP" nodeOrientation="LEFT_TO_RIGHT" prefHeight="35.0" prefWidth="145.0" text="MySpa" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgvLogo" fitHeight="101.0" fitWidth="129.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="25.0" />
+               </VBox.margin></ImageView>
+            <JFXButton fx:id="btnSucursales" alignment="BASELINE_LEFT" contentDisplay="RIGHT" graphicTextGap="108.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="75.0" prefWidth="350.0" style="-fx-pref-height: 75px; -fx-padding: 25,10,25,10; -fx-pref-width: 350px; -fx-min-height: 75px; -fx-max-height: 75px;" text="Sucursales" textFill="WHITE" wrapText="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton fx:id="btnEmpleados" alignment="BASELINE_LEFT" contentDisplay="RIGHT" graphicTextGap="105.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="75.0" prefWidth="240.0" style="-fx-max-height: 75px; -fx-padding: 25,10,25,10; -fx-pref-width: 350px; -fx-pref-height: 75px; -fx-min-height: 75px;" text="Empleados" textFill="WHITE" wrapText="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="btnClientes" alignment="BASELINE_LEFT" contentDisplay="RIGHT" graphicTextGap="130.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="75.0" prefWidth="238.0" style="-fx-max-height: 75px; -fx-padding: 25,10,25,10; -fx-pref-width: 350px; -fx-min-height: 75px; -fx-pref-height: 75px;" text="Clientes" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Bloom />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="btnProductos" alignment="BASELINE_LEFT" contentDisplay="RIGHT" graphicTextGap="112.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="81.0" prefWidth="238.0" style="-fx-max-height: 75px; -fx-padding: 25,10,25,10; -fx-pref-width: 350px; -fx-min-height: 75px; -fx-pref-height: 75px;" text="Productos" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Bloom />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="btnServicios" alignment="BASELINE_LEFT" contentDisplay="RIGHT" graphicTextGap="125.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="83.0" prefWidth="234.0" style="-fx-max-height: 75px; -fx-padding: 25,10,25,10; -fx-pref-width: 350px; -fx-min-height: 75px; -fx-pref-height: 75px;" text="Servicios" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect></JFXButton>
+            <JFXButton fx:id="btnReservaciones" alignment="BASELINE_LEFT" contentDisplay="RIGHT" graphicTextGap="80.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="85.0" prefWidth="243.0" style="-fx-max-height: 75px; -fx-padding: 25,10,25,10; -fx-pref-width: 350px; -fx-min-height: 75px; -fx-pref-height: 75px;" text="Reservaciones" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect></JFXButton>
+            <JFXButton fx:id="btnSalas" alignment="BASELINE_LEFT" contentDisplay="RIGHT" graphicTextGap="157.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="87.0" prefWidth="253.0" style="-fx-max-height: 75px; -fx-pref-width: 350px; -fx-padding: 25,10,25,10; -fx-min-height: 75px; -fx-pref-height: 75px;" text="Salas" textFill="WHITE" wrapText="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="btnCtrlSala" alignment="BASELINE_LEFT" contentDisplay="RIGHT" graphicTextGap="75.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="89.0" prefWidth="303.0" style="-fx-max-height: 75px; -fx-pref-width: 350px; -fx-padding: 25,10,25,10; -fx-min-height: 75px; -fx-pref-height: 75px;" text="Control de sala" textFill="WHITE" wrapText="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="btnTratamientos" alignment="BASELINE_LEFT" contentDisplay="RIGHT" graphicTextGap="75.0" minHeight="69.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="88.0" prefWidth="300.0" style="-fx-max-height: 75px; -fx-pref-width: 350px; -fx-padding: 25,10,25,10; -fx-min-height: 75px; -fx-pref-height: 75px;" text="Tratamientos" textFill="WHITE" wrapText="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </JFXButton>
+         </children>
+         <padding>
+            <Insets top="-25.0" />
+         </padding>
+      </VBox>
+   </left>
+   <center>
+      <Pane prefHeight="971.0" prefWidth="755.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton layoutX="298.0" layoutY="587.0" style="-fx-background-color: #ffbb53;" text="Iniciar Sesión" />
+            <JFXTextField focusColor="#f68a1f" layoutX="267.0" layoutY="378.0" />
+            <JFXTextField focusColor="#f68a1f" layoutX="267.0" layoutY="475.0" />
+            <Label layoutX="184.0" layoutY="394.0" text="Usuario:" />
+            <Label layoutX="159.0" layoutY="491.0" text="Contraseña:" />
+            <ImageView fx:id="imgvInicioSesion" fitHeight="130.0" fitWidth="130.0" layoutX="267.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
