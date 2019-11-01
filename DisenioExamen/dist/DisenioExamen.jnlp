@@ -8,8 +8,8 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="DisenioExamen.jar" size="34717" download="eager" />
-    <jar href="lib\jfoenix-8.0.2.jar" size="2442326" download="eager" />
+    <jar href="DisenioExamen.jar" size="34715" download="eager" />
+    <jar href="lib\jPhoenix.jar" size="2708772" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DisenioExamen" >
     <param name="requiredFXVersion" value="8.0+"/>
